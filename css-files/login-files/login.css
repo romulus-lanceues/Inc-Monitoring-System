@@ -1,0 +1,116 @@
+/* Font Import */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(0, 0, 0);
+}
+
+.container {
+  position: relative;
+  max-width: 430px;
+  width: 100%;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 10 rgba(0, 0, 0, 0.1);
+}
+
+.container .form {
+  padding: 30px;
+}
+
+.container .form .title {
+  position: relative;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.form .title::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 30px;
+  background-color: black;
+  border-radius: 25px;
+}
+
+.form .input-field {
+  background-color: aqua;
+  position: relative;
+  height: 50px;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.input-field input {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  padding: 0 35px;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #ccc;
+  border-top: 2px solid transparent;
+  font-size: 15px;
+}
+
+.input-field i {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 23px;
+  color: #999;
+}
+
+.input-field i.icon {
+  left: 0;
+}
+
+.input-field i.showPw {
+  right: 0;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#submit-button {
+  width: 250px;
+  margin-top: 50px;
+  border: none;
+  padding: 1.1rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 10 rgba(0, 0, 0, 0.1);
+}
+.signup-button{
+  margin-top: 3rem;
+  text-align: center;
+  font-size: 1rem;
+  color: rgb(151, 151, 151);
+}
+.signup-button > a {
+  color: rgb(129, 129, 235);
+}
+#submit-button:hover {
+  background-color: black;
+  color: white;
+}
+#toggle-button:hover {
+  cursor: pointer;
+}

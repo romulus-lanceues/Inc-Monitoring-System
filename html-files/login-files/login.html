@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login and Registration</title>
+    <link rel="stylesheet" href="../../css-files/login-files/login.css" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="forms">
+        <div class="form login">
+          <span class="title">Login</span>
+          <form id="login-form" action="#">
+            <div class="input-field">
+              <input
+                name="studentNumber"
+                class="student-number"
+                type="text"
+                placeholder="Enter your student number"
+                required
+              />
+              <i class="uil uil-user"></i>
+            </div>
+            <div class="input-field">
+              <input
+                name="password"
+                class="password"
+                type="password"
+                placeholder="Enter your password"
+                required
+              />
+              <i class="uil uil-lock icon"></i>
+              <i class="uil uil-eye-slash showPw" id="toggle-button"></i>
+            </div>
+            <button id="submit-button">Submit</button>
+          </form>
+          <p class="signup-button">Don't have an account? <a href="signup.html">Sign-up</a></p>
+        </div>
+      </div>
+    </div>
+
+    <p class="message">Hello</p>
+
+    <script src="../../javascript-files/login-files/login.js"></script>
+  </body>
+</html>
