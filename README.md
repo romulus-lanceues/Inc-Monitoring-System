@@ -41,49 +41,7 @@ A simple web-based system for monitoring student completion statuses (**Complete
 
 ## 📁 Folder Structure
 
-INC-MONITORING-SYSTEM/
-│
-├── css-files/
-│ ├── admin-dashboard-files/
-│ │ └── admin-dashboard-style.css
-│ ├── login-files/
-│ │ ├── login.css
-│ │ └── signup.css
-│ └── student-dashboard-files/
-│ └── student-dashboard-style.css
-│
-├── html-files/
-│ ├── admin-dashboard-files/
-│ │ └── admin-dashboard.html
-│ ├── login-files/
-│ │ ├── login.html
-│ │ └── signup.html
-│ └── student-dashboard-files/
-│ └── student-dashboard.html
-│
-├── javascript-files/
-│ ├── admin-dashboard-files/
-│ │ └── admin-dashboard-script.js
-│ ├── login-files/
-│ │ ├── login.js
-│ │ └── sign-up.js
-│ └── student-dashboard-files/
-│ └── student-dashboard-script.js
-│
-├── php-files/
-│ ├── admin-dashboard-files/
-│ │ ├── get-instructor-name.php
-│ │ ├── get-passed-and-total-students.php
-│ │ ├── get-students-masterlist.php
-│ │ ├── get-subject-names.php
-│ │ └── update-student-status.php
-│ ├── login-files/
-│ │ ├── login.php
-│ │ └── signup.php
-│ ├── shared-files/
-│ │ └── db_configurations.php
-│ └── student-dashboard-files/
-│ └── get-student-record.php
+<pre> <code>```plaintext INC-MONITORING-SYSTEM/ ├── css-files/ │ ├── admin-dashboard-files/ │ │ └── admin-dashboard-style.css │ ├── login-files/ │ │ ├── login.css │ │ └── signup.css │ └── student-dashboard-files/ │ └── student-dashboard-style.css │ ├── html-files/ │ ├── admin-dashboard-files/ │ │ └── admin-dashboard.html │ ├── login-files/ │ │ ├── login.html │ │ └── signup.html │ └── student-dashboard-files/ │ └── student-dashboard.html │ ├── javascript-files/ │ ├── admin-dashboard-files/ │ │ └── admin-dashboard-script.js │ ├── login-files/ │ │ ├── login.js │ │ └── sign-up.js │ └── student-dashboard-files/ │ └── student-dashboard-script.js │ ├── php-files/ │ ├── admin-dashboard-files/ │ │ ├── get-instructor-name.php │ │ ├── get-passed-and-total-students.php │ │ ├── get-students-masterlist.php │ │ ├── get-subject-names.php │ │ └── update-student-status.php │ ├── login-files/ │ │ ├── login.php │ │ └── signup.php │ ├── shared-files/ │ │ └── db_configurations.php │ └── student-dashboard-files/ │ └── get-student-record.php ```</code> </pre>
 
 ## 🛠️ Setup Instructions
 
