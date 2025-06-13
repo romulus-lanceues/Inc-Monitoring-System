@@ -85,8 +85,6 @@ INC-MONITORING-SYSTEM/
 │ └── student-dashboard-files/
 │ └── get-student-record.php
 
----
-
 ## 🛠️ Setup Instructions
 
 ### 1. Clone or Download the Project
@@ -118,8 +116,6 @@ $database = "inc_monitoring";
    Visit http://localhost/INC-MONITORING-SYSTEM/html-files/login-files/login.html
 
 Use a test student/admin account to log in
-
-#👨‍💻 Developers
 
 Lance Jade A. Buela
 Jerrald Cliff Ramirez
