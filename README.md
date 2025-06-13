@@ -75,8 +75,10 @@ $database = "inc_monitoring";
 
 Use a test student/admin account to log in
 
-Lance Jade A. Buela
-Jerrald Cliff Ramirez
-Balmist Balansag
-Jayvee Lumagbas
-Mark Aries Akiatan
+# 👨‍💻 Developers
+
+This project was created and maintained by:
+
+- **Lancea Buela** – Full Stack Developer
+- **Balmist Balansag** – Front-end Developer
+- **Jayvee Lumagbas** – Front-end Developer
