@@ -56,29 +56,12 @@ git clone https://github.com/yourusername/inc-monitoring-system.git
 
 Place the project folder inside C:\xampp\htdocs
 
-3. Configure the Database
-   Open http://localhost/phpmyadmin
-
-Create a new database (e.g. inc_monitoring)
-
-Import your .sql file containing the schema and sample data
-
-4. Update DB Connection
-   Open php-files/shared-files/db_configurations.php and check:
-   $host = "localhost";
-$username = "root"; // your MySQL username
-   $password = "";     // your MySQL password
-$database = "inc_monitoring";
-
-5. Run the Application
-   Visit http://localhost/INC-MONITORING-SYSTEM/html-files/login-files/login.html
-
-Use a test student/admin account to log in
-
 # 👨‍💻 Developers
 
 This project was created and maintained by:
 
-- **Lancea Buela** – Full Stack Developer
+- **Lance Jade A. Buela** – Full Stack Developer / Documentation / Presentation
 - **Balmist Balansag** – Front-end Developer
-- **Jayvee Lumagbas** – Front-end Developer
+- **Jayvee Lumagbas** – Front-end Developer/ Documentation / Presentation
+- **Jerrald Cliff Ramirez** – Documentation/Front-end Developer
+- **Mark Aries Akiatan** – Front-end Developer
