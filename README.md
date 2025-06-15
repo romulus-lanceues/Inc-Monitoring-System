@@ -60,8 +60,9 @@ Place the project folder inside C:\xampp\htdocs
 
 This project was created and maintained by:
 
-- **Lance Jade A. Buela** – Full Stack Developer / Documentation / Presentation
+- **Lance Jade A. Buela** – Full Stack Developer / Documentation / Presentation / Presentation Production
 - **Balmist Balansag** – Front-end Developer
-- **Jayvee Lumagbas** – Front-end Developer/ Documentation / Presentation
+- **Jayvee Lumagbas** – Front-end Developer/ Documentation / Presentation / Presentation Production
 - **Jerrald Cliff Ramirez** – Documentation/Front-end Developer
 - **Mark Aries Akiatan** – Front-end Developer
+- **Jonathan Lusica** – Documentation / Presentation Editing
